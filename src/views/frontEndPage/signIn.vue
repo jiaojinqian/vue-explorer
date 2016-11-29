@@ -6,11 +6,25 @@
 		<div class="pwd">
 			<label for=""></label><input type="password">
 		</div>
-		 <div>
-		 	<button class="btn">登陆</button>
-		 </div>
+		<div>
+		 	<button class="btn" type="button" @click='login'>登陆</button>
+		</div>
 	</div>
 </template>	
+<script>
+	export default {
+		data(){
+			return {
+
+			}
+		},
+		methods:{
+			login(){
+				this.$router.push({ path: 'index' });
+			},
+		},
+	}
+</script>
 <style scoped>
 	.pwd{
 		margin-top: 20px;

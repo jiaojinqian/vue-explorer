@@ -1,29 +1,37 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <SignIn></SignIn>
-  </div>
+		<!-- <Header></Header> -->
+		<!-- <img src="./assets/logo.png"> -->
+		<!-- 路由匹配的组件将渲染到这里 -->
+		<router-view></router-view>
+	</div>
 </template>
+<script type="text/ecmascript-6">
+	import Index from './views/frontEndPage/index.vue'
 
-<script>
-import Hello from './components/Hello'
-import SignIn from './views/SignIn'
+	export default {
+		data(){
+			return {
 
-export default {
-  name: 'app',
-  components: {
-    SignIn
-  }
-}
+			}
+		},
+		methods:{
+
+		},
+		components:{
+			Index
+			/* Header,
+			 leftNav*/
+		}
+	}
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+	#app {
+	  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  text-align: center;
+	  color: #2c3e50;
+	  margin-top: 60px;
+	}
 </style>
