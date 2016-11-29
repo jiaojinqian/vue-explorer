@@ -1,0 +1,5 @@
+<template>
+	<div>
+		头部信息
+	</div>
+</template>
