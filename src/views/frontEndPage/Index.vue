@@ -16,7 +16,7 @@
 	export default {
 		data(){
 			return {
-
+        name:'hwb'
 			}
 		},
 		methods:{
