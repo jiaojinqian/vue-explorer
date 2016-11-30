@@ -1,10 +1,15 @@
 import Vue from 'vue'
-import App from './App'
+import App from './views/App'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 import {routes} from './config/routes.js'
 require('./assets/font/font-awesome.css');
 require('./assets/css/bootstrap.css');
+/*require('./assets/css/base.css')
+require('./assets/css/main.css');*/
+require('./assets/css/elements.css');
+require('./assets/css/calendar.css');
+require('./assets/css/layout.css');
 /* eslint-disable no-new */
 /*new Vue({
   el: '#app',

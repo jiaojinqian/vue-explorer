@@ -1,0 +1,362 @@
+
+/*------------左侧tab icon----------------*/
+.manager-left ul li:nth-child(2) span{
+	background-position: -32px -111px;
+}
+.manager-left ul li:nth-child(3) span{
+	background-position: -32px -140px;
+}
+.manager-left ul li:nth-child(4) span{
+	background-position: -2px -402px;
+}
+.manager-left ul li:nth-child(5) span{
+	background-position: -31px -170px;
+}
+
+
+/*------------右侧首页内容----------------*/
+.manager-home{
+	width: 65%;
+	margin: 32px auto 0;
+}
+.today-data,.session-num{
+	background: #f5f8fc;
+	margin-bottom: 50px;
+	border: 1px solid #e0e5ea;
+	box-shadow: 0 0 20px #C9DBF4;
+}
+.today-data h3,.session-num h3,.work-time h3,.session-sign h3{
+	height: 49px;
+	line-height: 49px;
+	border-bottom: 1px solid #e0e5ea;
+	font-size: 12px;
+	color: #9299a8;
+	padding-left: 25px;
+	background: #fff;
+	margin: 0;
+}
+.today-data ul{
+	height: 110px;
+	line-height: 110px;
+	background: #f5f8fc;
+	margin: 0;
+}
+.today-data ul li{
+	float: left;
+	width: 33%;
+	height: 110px;
+	text-align: center;
+	overflow: hidden;
+}
+.today-data ul li i,.today-data ul li b,.today-data ul li span{
+	display: block;
+	float: left;
+}
+.today-data ul li i{
+	width: 18px;
+	height: 17px;
+	background: url(../images/im_img/icon.png) no-repeat;
+	margin: 45px 5px 0 90px;
+}
+.today-data ul li:first-child i{
+	background-position: -32px -20px;
+}
+.today-data ul li:nth-child(2) i{
+	background-position: -32px -49px;
+}
+.today-data ul li:last-child i{
+	background-position: -32px -83px;
+}
+.today-data ul li span{
+	font-size: 33px;
+	margin-left: 20px;
+}
+.today-data ul li:first-child span{
+	color: #ff9000;
+}
+.today-data ul li:nth-child(2) span{
+	color: #5bea94;
+}
+.today-data ul li:last-child span{
+	color: #2a3245;
+}
+
+.session-num{
+	min-height: 360px;
+	overflow: hidden;
+}
+.ranking{
+	background: #f5f8fc;
+	min-height: 309px;
+	/* margin:auto;
+	    overflow-y: auto; */
+}
+
+
+/*-----------------账户管理页面----------------------*/
+.account-manage{
+	height: 100%;
+	overflow: hidden;
+}
+.add-account{
+	height: 48px;
+	line-height: 48px;
+}
+.add-account img{
+	margin: 0 20px 0 13px;
+}
+.manage-tab tr th{
+	border-top: 1px solid #e1e6eb;
+	border-bottom: 1px solid #e1e6eb;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #9299a8;
+}
+.manage-tab tr td{
+	border-bottom: 1px solid #e1e6eb;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #384051;
+}
+.manage-tab tr:hover{
+	background: #f5f8fc;
+}
+
+
+/*-----------------工作时间页面----------------------*/
+.work-time{
+	width: 768px;
+	height: 360px;
+	margin: 120px auto 0;
+	border: 1px solid #e0e5ea;
+	background: #f5f8fc;
+	box-shadow: 0 0 20px #C9DBF4;
+	overflow: hidden;
+}
+.time-details{
+	margin:38px 35px 0 78px;
+}
+.time-details .form-group label{
+	float: left;
+	line-height: 30px;
+	margin-right: 15px;
+}
+.time-details .form-control{
+	width: 80%;
+	float: left;
+	height: 25px;
+	border-radius: 10px;
+	font-size: 12px;
+}
+.time-details span{
+	float: right;
+	display: block;
+	width: 18px;
+	height: 17px;
+	background: url(../images/im_img/icon.png) -4px -432px no-repeat;
+	margin: 5px 20px 0 0;
+	cursor: pointer;
+}
+.time-details span.on{
+	background-position: -4px -460px;
+}
+.time-details ul{
+	height: 26px;
+	line-height: 20px;
+}
+.time-details ul li{
+	width: 69px;
+	float: left;
+}
+.time-details ul li span{
+	float: left;
+	margin: 3px 5px 0 0;
+}
+.time-choose{
+	height: 40px;
+	margin-top: 16px;
+}
+.time-choose label{
+	float: left;
+	line-height: 23px;
+}
+.time-choose .form-control{
+	float: left;
+	width: 60px;
+	height: 23px;
+	padding: 2px 6px;
+}
+.save{
+	width: 50px;
+	height: 28px;
+	background:#4f9ce8;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+	border-radius: 25px;
+	margin-top: 90px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+
+/*-----------------会话标签页面----------------------*/
+.session-sign{
+	width: 768px;
+	height: 500px;
+	margin: 50px auto 0;
+	border: 1px solid #e0e5ea;
+	background: #f5f8fc;
+	box-shadow: 0 0 20px #C9DBF4;
+	overflow: hidden;
+}
+.label-box{
+	height: 400px;
+	margin: 25px 30px 0 76px;
+}
+.label-list{
+	width: 215px;
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.label-list a,.label-list .label-content,.label-content{
+	display: block;
+	width: 184px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 92px;
+	text-decoration: none;
+    overflow: hidden; 
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.label-list-span{
+	display: block;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 92px;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+.label-icon{
+	position: absolute;
+	display:none;
+	width: 184px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 92px;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	top:0;
+}
+.label-content:hover>.label-icon{
+	display:block;
+	background-color:#f6f9fc;
+	opacity:0.5;
+}
+ .label-content:hover>span{
+	background-color: #fff;
+	border:0;
+	border-radius: 0px;
+    width: 130px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #fff;
+} 
+.label-list a{
+	background: #4f9ce8;
+	color: #fff;
+}
+.label-list .label-content{
+	box-shadow: 1px 1px 15px #d8e3f0;
+	background-color: #fff;
+}
+
+.label-list .label-content .form-control{
+	width: 183px;
+	height: 35px;
+	border-radius: 91px;
+	border:none;
+	position: absolute;
+	top:0;
+ 	z-index: 2; 
+ 	background-color: #fff;
+}
+.label-list .label-content .form-control-input{
+	width: 135px;
+	height: 35px;
+	border-radius: 91px;
+	border:none;
+	position: absolute;
+	top:0;
+	left:0;
+ 	z-index: 2; 
+ 	padding-left:10px;
+}
+.label-list .label-content .form-control-input:focus{
+	outline: none;
+}
+.label-list .label-content span{
+	color: #9299a8;
+	text-align: left;
+	text-indent: 12px;
+}
+
+.label-icon i{
+	float: right;
+	width: 16px;
+	height: 17px;
+	display: block;
+	background: url(../images/im_img/icon.png) no-repeat;
+	margin: 10px 8px 0 0;
+	cursor: pointer;
+}
+.label-icon i.alter{
+	background-position: -32px -460px;
+}
+.label-icon i.delete{
+	background-position: -32px -432px;
+}
+
+
+
+/*-----------------群发消息页面----------------------*/
+.group-tab tr td:last-child{
+	position: relative;
+}
+.group-tab tr td span{
+	width: 16px;
+	height: 17px;
+	display: block;
+	background: url(../images/im_img/icon.png) -4px -484px no-repeat;
+	position: absolute;
+	right: 43%;
+	top: 11px;
+	cursor: pointer; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
