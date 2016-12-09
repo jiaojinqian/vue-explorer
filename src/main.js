@@ -10,6 +10,8 @@ require('./assets/css/main.css');*/
 require('./assets/css/elements.css');
 require('./assets/css/calendar.css');
 require('./assets/css/layout.css');
+//引入饿了么的UI组件库的样式
+import 'element-ui/lib/theme-default/index.css'
 /* eslint-disable no-new */
 /*new Vue({
   el: '#app',
