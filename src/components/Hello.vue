@@ -17,16 +17,28 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <buttonType @click="open" type='primary' icon='edit'></buttonType>
   </div>
 </template>
 
 <script>
+import { Button} from 'element-ui'
 export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      radio:'1'
     }
+  },
+  methods:{
+    open(){
+      alert(1);
+     
+    }
+  },
+  components:{
+    buttonType:Button
   }
 }
 </script>

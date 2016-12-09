@@ -1,19 +1,22 @@
 <template>
   <div class="theme-blue-gradient">
-    <Header></Header>
+    <my-header></my-header>
     <div id="page-wrapper" class="container">
       <div class="row">
         <left-nav></left-nav>
         <div id="content-wrapper">
           <router-view></router-view>
-          <Footer></Footer>
+          <my-footer></my-footer>
         </div>
       </div>
     </div>
   </div>
 </template>
 
-<script type="text/ecmascript-6">
+<script>
+  import Footer from '../../components/Footer'
+  import Header from '../../components/Header'
+  import leftNav from '../../components/leftNav'
   export default {
     data(){
       return {
@@ -26,9 +29,9 @@
       },
     },
     components:{
-      leftNav:require('../../components/leftNav.vue'),
-      Footer:require('../../components/Footer.vue'),
-      Header:require('../../components/Header.vue')
+      leftNav,
+      myFooter:Footer,
+      myHeader:Header
     }
   }
 </script>
