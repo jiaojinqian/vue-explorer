@@ -22,6 +22,6 @@ export const routes=[
 	},
 	{
 		path:'/',
-		component:Hello
+		component:signIn
 	}
 ]
